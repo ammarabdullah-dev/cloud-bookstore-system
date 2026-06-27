@@ -56,3 +56,37 @@ User → Web Application → Cloud Server → Database / Storage
 - Database manages users, books, and order information
 
 ---
+## Project Structure
+
+
+cloud-bookstore-system/
+│
+├── frontend/
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+├── backend/
+│
+├── database/
+│ └── schema.sql
+│
+└── README.md
+
+## Future Improvements
+
+- Add payment gateway integration
+- Implement user authentication with IAM/security services
+- Add recommendation system
+- Deploy using CI/CD pipeline
+- Improve monitoring and logging using cloud services
+
+---
+
+## Learning Outcomes
+
+- Understanding cloud-based application deployment
+- Working with AWS services
+- Database integration
+- Web application development
+- Version control using Git
