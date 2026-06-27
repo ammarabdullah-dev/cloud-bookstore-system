@@ -56,7 +56,24 @@ User → Web Application → Cloud Server → Database / Storage
 - Database manages users, books, and order information
 
 ---
-## Project Structure
+
+## Future Improvements
+
+- Add payment gateway integration
+- Implement user authentication with IAM/security services
+- Add recommendation system
+- Deploy using CI/CD pipeline
+- Improve monitoring and logging using cloud services
+
+---
+
+## Learning Outcomes
+
+- Understanding cloud-based application deployment
+- Working with AWS services
+- Database integration
+- Web application development
+- Version control using Git
 
 ## 📁 Project Structure
 
@@ -92,20 +109,4 @@ cloud-bookstore-system/
 ├── docker-compose.yml          # Spins up frontend, backend, and DB locally with one command
 └── README.md
 
-## Future Improvements
 
-- Add payment gateway integration
-- Implement user authentication with IAM/security services
-- Add recommendation system
-- Deploy using CI/CD pipeline
-- Improve monitoring and logging using cloud services
-
----
-
-## Learning Outcomes
-
-- Understanding cloud-based application deployment
-- Working with AWS services
-- Database integration
-- Web application development
-- Version control using Git
