@@ -108,5 +108,3 @@ cloud-bookstore-system/
 ├── .gitignore                  # Files to ignore in git (e.g., node_modules, .env)
 ├── docker-compose.yml          # Spins up frontend, backend, and DB locally with one command
 └── README.md
-
-
