@@ -29,7 +29,7 @@ The project focuses on applying cloud computing concepts to improve scalability,
 - JavaScript
 
 ### Backend
-- (Add your backend language/framework)
+- Python + Django
 
 ### Database
 - MySQL
