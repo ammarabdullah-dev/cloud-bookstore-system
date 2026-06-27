@@ -56,5 +56,3 @@ User → Web Application → Cloud Server → Database / Storage
 - Database manages users, books, and order information
 
 ---
-
-## Project Structure
