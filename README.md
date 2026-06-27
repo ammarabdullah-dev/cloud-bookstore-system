@@ -58,18 +58,38 @@ User → Web Application → Cloud Server → Database / Storage
 ---
 ## Project Structure
 
+## 📁 Project Structure
+
+```text
 cloud-bookstore-system/
-│
+├── .github/
+│   └── workflows/              # CI/CD pipelines (e.g., GitHub Actions)
 ├── frontend/
+│   ├── public/                 # Static assets (images, icons)
+│   ├── src/
+│   │   ├── components/         # Reusable UI components (Navbar, BookCard)
+│   │   ├── services/           # API call functions to communicate with backend
+│   │   ├── utils/              # Helper functions
+│   │   ├── app.js              # Main application logic
+│   │   └── style.css           # Global styling
 │   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
+│   └── Dockerfile              # Docker configuration for frontend hosting
 ├── backend/
-│
+│   ├── config/                 # Database and environment configurations
+│   ├── controllers/            # Request handlers (processes route logic)
+│   ├── models/                 # Database schemas (Book, User, Order)
+│   ├── routes/                 # API endpoint definitions (/api/books, /api/orders)
+│   ├── middleware/             # Auth guards, logging, and error handling
+│   ├── tests/                  # Unit and integration tests
+│   ├── server.js (or main.py)  # Application entry point
+│   ├── package.json            # Dependencies (if Node) or requirements.txt (if Python)
+│   └── Dockerfile              # Docker configuration for backend hosting
 ├── database/
-│   └── schema.sql
-│
+│   ├── migrations/             # Database version control scripts
+│   ├── seeds/                  # Mock data to populate books for testing
+│   └── schema.sql              # Core database structural blueprint
+├── .gitignore                  # Files to ignore in git (e.g., node_modules, .env)
+├── docker-compose.yml          # Spins up frontend, backend, and DB locally with one command
 └── README.md
 
 ## Future Improvements
