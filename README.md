@@ -58,18 +58,17 @@ User → Web Application → Cloud Server → Database / Storage
 ---
 ## Project Structure
 
-
 cloud-bookstore-system/
 │
 ├── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
 ├── backend/
 │
 ├── database/
-│ └── schema.sql
+│   └── schema.sql
 │
 └── README.md
 
